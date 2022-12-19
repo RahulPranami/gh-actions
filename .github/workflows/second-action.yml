@@ -1,0 +1,8 @@
+name: Second Workflow
+on: [push]
+jobs:
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Second WorkFlow
+        run: echo "Second Workflow ran Successfully"
