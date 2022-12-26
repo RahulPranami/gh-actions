@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Second WorkFlow
-        run: echo "Second Workflow ran Successfully"
+        run: echo "Second Workflow ran Successfully using ssh push"
